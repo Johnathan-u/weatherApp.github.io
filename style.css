@@ -1,0 +1,97 @@
+body {
+    background: linear-gradient(to bottom, black, white);
+    height: 100vh; /* Ensure the gradient covers the entire viewport height */
+    margin: 0; /* Remove default margin */
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.banner{
+    color: white;
+}
+
+.weatherForm{
+    margin: 20px;
+}
+
+.cityInput{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+button{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: lightgray;
+}
+
+.card{
+    padding: 50px;
+    box-shadow: 2px 2px 5px black;
+    width: 200px;
+    align-self: center;
+    min-width: 200px
+}
+
+
+h1{
+    font-size: 3.5rem;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.cityDisplay, .tempDisplay{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+
+}
+.humidityDisplay{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+
+.desoDisplay{
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+
+.weatherEmoji{
+    margin:0;
+    font-size: 5rem;
+}
+
+.errorDisplay{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: red;
+}
